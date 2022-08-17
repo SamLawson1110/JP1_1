@@ -9,10 +9,17 @@ public class Main {
         StringOperations.stringOper();
         //InputVariables class, make a scanner, initialize a variable for each primitive data type
         //take in a value from scanner for each variable then print
+        InputVariables.inputVars();
         //AgeChecker class, take in age from scanner, if >=21, say adult
-        //ask if has drivers license, y/n, if adult + license -> can hire car print
+        //ask if has drivers license, y/n, if adult + license -> can hire car, print
+        AgeChecker.ageCheck();
         //ValueChecker class, input int from scan, 7 lucky, 13 unlucky, other neither, print
         //do while to repeat until user enters zero
-        //UniqueNums class, 5 element int array called numbers,
+        ValueChecker.valueCheck();
+        //UniqueNums class, 5 element int array called numbers, int num = 0, int numValues = 0
+        //bool valid = true, scanner called in
+        //while loop that loops once for each value in array
+        //do while to get unique inputs, add unique numbers to array
+        //cloe scanner once done in.close();, for loop to print array values
     }
 }
