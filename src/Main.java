@@ -21,5 +21,6 @@ public class Main {
         //while loop that loops once for each value in array
         //do while to get unique inputs, add unique numbers to array
         //cloe scanner once done in.close();, for loop to print array values
+        UniqueNums.uniqNum();
     }
 }

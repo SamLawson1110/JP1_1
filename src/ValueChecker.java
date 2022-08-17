@@ -10,7 +10,7 @@ public class ValueChecker {
                 System.out.println("This number is unlucky");
             } else if (num == 7){
                 System.out.println("This number is lucky");
-            } else {
+            } else if (num != 0){
                 System.out.println("This number is neither lucky no unlucky");
             }
         } while(num != 0);
